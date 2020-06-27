@@ -1,0 +1,74 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    background-color: lightblue;
+
+}
+
+.inp    ut-wrap,
+input:not([type="radio"]):not([type="checkbox"]),
+select,
+textarea {
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+
+
+form, .table-wrap {
+    margin: 100px 0;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EEE;
+    border-radius: 8px;
+    max-width: 440px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+#element-toggle {
+    display: none;
+}
+
+#element-toggle:checked ~ #toggled-element tr {
+    display: block;
+    float: left;
+}
+#element-toggle:checked ~ #toggled-element th,
+#element-toggle:checked ~ #toggled-element td {
+    display: block;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

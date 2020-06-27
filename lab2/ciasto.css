@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+* {
+    font-family: Verdana;
+}
+header, footer {
+    background-color: lime;
+}
+main {
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 6px;
+}
+
+h1 {
+    width: 100%;
+    color: saddlebrown;
+    font-size: 48px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: peru;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    background-color: yellow;
+    width: 120px;
+    text-align: center;
+    padding: 12px;
+    margin: 0px 12px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+aside {
+    position: absolute;
+    background: peru;
+    width: 240px;
+    right: 0;
+    bottom: 100%;
+    transform: translate(0, 100%);
+}
+
+p {
+    text-indent: 2em;
+    margin-top: 0
+}
+
+img {
+    width: 160px;
+    float: left;
+    margin: 0;
+}
+article {
+    width: 100%;
+}
+section {
+
+    padding-right: 252px;
+}
+.nutrition {
+   list-style: none;
+    padding: 0 0 5px 0;
+}
+
+.preparation li {
+    margin-bottom: 10px;
+}

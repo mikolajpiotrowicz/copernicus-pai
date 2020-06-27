@@ -1,0 +1,48 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+header, footer {
+    background-color: darkgray;
+    color: pink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+    margin: 0;
+    padding: 12px 6px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    text-indent: 1.5em;
+    margin: 0;
+    text-align: justify;
+    padding: 6px;
+}
+
+img {
+    height: 240px;
+    float: right;
+    margin: 6px;
+}
+
+
+#wejscie {
+    background-color: navy;
+    color: white;
+    opacity: 50%;
+    padding: 6px;
+    position: fixed;
+    width: 180px;
+    right: 0;
+    bottom: 0;
+}
